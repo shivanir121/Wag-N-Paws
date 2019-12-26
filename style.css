@@ -230,7 +230,7 @@ footer
 	.showcase-content .container .row div img {
         position: absolute;
         width: 250%;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 }
 

@@ -149,7 +149,19 @@ li
 
 
 
-
+/* mobile version */
+@media only screen and (max-width: 600px) 
+{
+    .rightSideAboutGrid
+    {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin-bottom: 2rem;
+        top: 100px;
+        left: 12px;
+    }
+}
 
 
 

@@ -228,9 +228,8 @@ footer
         margin: 0px 1rem;
     }
 	.showcase-content .container .row div img {
-        position: absolute;
-        width: 250%;
-        overflow: hidden;
+        display:none;
     }
+	
 }
 

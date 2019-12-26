@@ -227,5 +227,10 @@ footer
         width: 50%;
         margin: 0px 1rem;
     }
+	.showcase-content .container .row div img {
+        position: absolute;
+        width: 250%;
+        overflow-x: hidden;
+    }
 }
 

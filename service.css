@@ -115,6 +115,19 @@ li
     top: -81px;
 }
 
+/* mobile version */
+@media only screen and (max-width: 600px) {
+    .serviceCard
+    {
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .rightSideServiceImage
+    {
+        display: none;
+    }
+  }
 
 
 

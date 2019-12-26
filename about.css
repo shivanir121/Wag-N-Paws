@@ -1,0 +1,155 @@
+
+@font-face
+{
+	font-family: "playfair";
+	src:url(font/PlayfairDisplay.ttf);
+}
+
+@font-face
+{
+	font-family: "CrimsonText";
+	src:url(font/CrimsonText.ttf);
+}
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+img
+{
+    width: 100%;
+}
+
+a
+{
+    text-align: none;
+    color: black;
+}
+
+ul
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+.showcase nav #collapsibleNavbar ul li a:hover {
+    color: #a7aaad;
+    border-bottom: 1px #a7aaad solid;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.showcase nav #collapsibleNavbar ul li a
+{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.navbar-brand
+{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.navbar-brand:hover
+{
+    color: #a7aaad;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.showcase
+{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+
+.serviceCard
+{
+    border-radius: 2rem;
+    box-shadow: 16px 32px 44px -20px #cacaca;
+}
+
+.serviceCard:hover
+{
+    border-radius: 2rem;
+    box-shadow: none;
+    /* background-color: #dde3e9; */
+    
+}
+
+.serviceCard .card-body img{
+    width: 50%;
+    padding-bottom: 1rem;
+}
+
+.rightSideServiceImage
+{
+    width: 88%;
+    position: relative;
+    left: 124px;
+    top: -81px;
+}
+
+.parallex
+{
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: scroll;
+    height: 70vh;
+}
+
+.small                                                   /* all hr  */
+{
+    width: 10%;
+    position: relative;
+    left: 46%; 
+    margin-bottom: 2rem;
+}
+.content
+{
+    color: rgb(129, 129, 129);
+    margin-bottom: 4rem;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+
+.rightSideAboutGrid
+{
+    position: relative;
+    left: 122px;
+    top: -30px;
+}
+
+#about
+{
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
